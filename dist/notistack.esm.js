@@ -2,8 +2,8 @@ import React__default, { forwardRef, useRef, useCallback, useLayoutEffect, useEf
 import { createPortal } from 'react-dom';
 import clsx from 'clsx';
 import Slide from '@material-ui/core/Slide';
-import { withStyles, createStyles } from '@material-ui/styles';
-import { emphasize, makeStyles } from '@material-ui/core/styles';
+import { withStyles, createStyles, makeStyles } from '@material-ui/styles';
+import { emphasize } from '@material-ui/core/styles';
 import Collapse from '@material-ui/core/Collapse';
 import SvgIcon from '@material-ui/core/SvgIcon';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
@@ -621,7 +621,7 @@ var useStyle = /*#__PURE__*/makeStyles(function (theme) {
       height: 'auto',
       width: 'auto',
       transition: 'top 300ms ease 0ms, right 300ms ease 0ms, bottom 300ms ease 0ms, left 300ms ease 0ms, margin 300ms ease 0ms, max-width 300ms ease 0ms',
-      // container itself is invisible and should not block clicks, clicks should be passed to its children 
+      // container itself is invisible and should not block clicks, clicks should be passed to its children
       pointerEvents: 'none'
     }, _root[collapse.container] = {
       pointerEvents: 'all'

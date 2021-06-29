@@ -615,7 +615,7 @@ var collapse = {
   wrapper: '& > .MuiCollapse-container > .MuiCollapse-wrapper'
 };
 var xsWidthMargin = 16;
-var useStyle = /*#__PURE__*/styles$3.makeStyles(function (theme) {
+var useStyle = /*#__PURE__*/styles$2.makeStyles(function (theme) {
   var _root, _rootDense, _left, _right, _center;
 
   return {
@@ -628,7 +628,7 @@ var useStyle = /*#__PURE__*/styles$3.makeStyles(function (theme) {
       height: 'auto',
       width: 'auto',
       transition: 'top 300ms ease 0ms, right 300ms ease 0ms, bottom 300ms ease 0ms, left 300ms ease 0ms, margin 300ms ease 0ms, max-width 300ms ease 0ms',
-      // container itself is invisible and should not block clicks, clicks should be passed to its children 
+      // container itself is invisible and should not block clicks, clicks should be passed to its children
       pointerEvents: 'none'
     }, _root[collapse.container] = {
       pointerEvents: 'all'
